@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	text-align: center;
+	background-color: blueviolet;
+	color: #fff;
+	padding: 10px;
+}
+
+.header h1 {
+	margin-bottom: 10px;
+}
+
+.form-container {
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.form-container input {
+	border: none;
+	border-bottom: 1px solid orangered;
+	text-align: center;
+	font-family: inherit;
+	width: 25%;
+	margin-right: 5px;
+	font-size: inherit;
+}
+
+.form-container button {
+	background-color: rgb(81, 127, 189);
+}
+
+button {
+	border: none;
+	display: inline-block;
+	color: #fff;
+	padding: 3px 5px;
+	border-radius: 2px;
+	font-size: 13px;
+}
+
+.task-wrapper {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-basis: 80%;
+}
+
+.task__container {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 70%;
+	flex-wrap: wrap;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.task-wrapper h2 {
+	margin-right: auto;
+}
+
+.delete {
+	background-color: rgb(199, 5, 5);
+	margin-left: 10px;
+}
+
+.undo {
+	background-color: gray;
+}
+
+.done {
+	background-color: green;
+}
+
+.counter {
+	text-align: center;
+	border-bottom: 1px solid gray;
+	width: 80%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.count-header {
+	margin-right: auto;
+}
